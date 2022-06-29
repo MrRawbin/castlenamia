@@ -33,7 +33,7 @@ var prefix = [
     "Veil",
     "Dusk",
     "Crescent",
-]
+];
 
 var suffix = [
     "Blood",
@@ -76,9 +76,7 @@ function toggleLegibility() {
 
 
 function generateName() {
-    var generatedTitle = randomItem(prefix) + " of " + randomItem(suffix);
-    console.log(generatedTitle);
-    document.querySelector("h2").innerText = generatedTitle;
+    document.querySelector("h2").innerText = randomItem(prefix) + " of " + randomItem(suffix);
 }
 
 document.addEventListener("DOMContentLoaded", function () {
