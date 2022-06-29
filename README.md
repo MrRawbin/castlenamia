@@ -1,4 +1,4 @@
-# castlenamia
+# 🧛 castlenamia
 This is a silly Castlevania game name generator based on the fact that
 a lot of Castlevania games have names that use the formula `x of y` (`Symphony of the Night`, `Rondo of Blood` etc.)
 
@@ -16,11 +16,12 @@ Since this project is dumb and not very useful at all, it is haphazardly written
 old school ES5 and plain ol' CSS.
 
 If I feel like wasting more time some time in the future, I just might create an `npm` package containing the actual
-logic of generating the name, neatly bundled in a lib. 
+logic of generating the name, neatly bundled in a lib. Because *of course* you want to be able to use this
+functionality in your own project.
 
 For now, it's all just mashed into a plain `.js` file.
 
-# Contributions
+# 🫶 Contributions
 Please feel free to add more ideas for prefixes/suffixes in order to generate more dumb combinations
 of names.
 
@@ -42,6 +43,6 @@ var suffix = [
 
 Create a pull request, or create an issue with your suggestions.
 
-# Disclaimer
+# 😡 Disclaimer
 
 This project is in no way affiliated with, nor endorsed by, Konami.
