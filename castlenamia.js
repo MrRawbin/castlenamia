@@ -43,7 +43,7 @@ var suffix = [
     "Sorrow",
     "Darkness",
     "Ruin",
-    "Shadow",
+    "Shadows",
     "Fate",
     "Regret",
     "Virtue",
