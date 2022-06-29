@@ -1,0 +1,73 @@
+@font-face {
+    font-family: fette-unz-fraktur;
+    src: url('FetteUNZFraktur.ttf');
+}
+
+:root {
+    --font-family: fette-unz-fraktur, serif;
+}
+
+body {
+    font-family: var(--font-family);
+    padding: 0;
+    font-size: 16px;
+    background-position: center center;
+    background: url("bg.jpg");
+    background-size: cover;
+    background-color: rgb(37 46 87);
+    background-blend-mode: multiply;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+}
+
+main h1 {
+    text-shadow: 0 -16px 20px #000000;
+    font-size: clamp(2em, 18vw, 10em);
+}
+
+main h2 {
+    font-size: clamp(1.6em, 10vw, 5em);
+    text-shadow: 3px 3px #4866ad;
+    color: #b6c5f2;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    font-family: roboto, sans-serif;
+    padding: 0 0 clamp(0.5em, 3vh, 2em) clamp(1em, 3vw, 2em);
+    display: flex;
+    align-items: center;
+    transition: all 0.4s;
+}
+
+footer button {
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 1em;
+    cursor: pointer;
+    padding: 0;
+}
+
+footer img {
+    height: 2em;
+}
+
+footer > *:not(:last-child) {
+    margin-right: 2em;
+}
